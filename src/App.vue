@@ -67,12 +67,12 @@ export default {
       var params = {
       Image: {
         S3Object: {
-          Bucket: "peexoo.useridcards", 
+          Bucket: "ADDBUCKETNAME", 
           Name: data.Key
         }
         }, 
         MaxLabels: 123, 
-        MinConfidence: 70
+        MinConfidence: 70l
       };
       let vm = this
       window.rekognition.detectLabels(params, function(err, data) {
