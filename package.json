@@ -9,7 +9,7 @@
     "watch:sass": "node-sass src/main.scss src/style.css -w"
   },
   "dependencies": {
-    "aws-sdk": "^2.596.0",
+    "aws-sdk": "^2.814.0",
     "core-js": "^3.4.4",
     "vue": "^2.6.10"
   },
